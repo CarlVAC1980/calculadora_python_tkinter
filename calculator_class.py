@@ -13,3 +13,6 @@ class Calculator:
         self.label = label
         self.display = display
         self.button = button
+
+    def start(self):
+        self.root.mainloop()
